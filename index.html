@@ -2,25 +2,60 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Page Title</title>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
   <script type="text/javascript" src="scripts/main.js"></script>
 </head>
 <body>
   <header>
-    <div class="container">
-      
+    <div id="header">
+      <div id="logo">logo</div>
+      <nav>
+        <div id="main-nav">
+          <a href="index.html">Home</a>
+          <a href="htmls/news.html">News</a>
+          <a href="htmls/about.html">About</a>
+          <a href="htmls/contact.html">Contact</a>
+        </div>
+      </nav>
     </div>
   </header>
   <main>
-    <div class="main">
-      <h1>h1_tag</h1>
+    <div id="main">
+      <div id="about">
+        <h1>About</h1>
+        <!-- <p class="more">More</p> -->
+        <p>
+          about
+        </p>
+      </div>
+      <div id="news">
+        <h1>News</h1>
+        <!-- <p class="more">More</p> -->
+        <ul>
+          <li>
+            <p class="date">2018.4.1</p>
+            <p>Test</p>
+          </li>
+          <li>
+            <p class="date">2018.5.1</p>
+            <p>Test</p>
+          </li>
+        </ul>
+      </div>
     </div>
   </main>
   <footer>
-    <div class="container">
-      <p class="copy"><small>&copy; 2018 Luke20129</small></p>
+    <div id="footer_inner">
+      <div id="footer_container">
+        <div id="copyright">
+          <p>&copy;&nbsp;2018 Lukes20129</p>
+        </div>
+        <div id="sitemap">
+          <a href="htmls/site_map.html">Site Map</a>
+        </div>
+      </div>
     </div>
   </footer>
 </body>
